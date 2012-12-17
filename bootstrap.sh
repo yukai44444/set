@@ -1,4 +1,4 @@
 #!/bin/bash
 
-ln -s vim ~/.vim
-ln -s .vimrc ~/.vimrc
+ln -s "`pwd`/vim" "$HOME/.vim"
+ln -s "`pwd`/vimrc" "$HOME/.vimrc"
