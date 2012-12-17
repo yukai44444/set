@@ -98,8 +98,6 @@ map <C-Tab> :tabnext<CR>
 map <F6> :call ToggleMRU()<CR>
 map <F9> :!svn update<CR>
 map <F10> :!svn commit --message=''<LEFT>
-"map <D-F12> :CommandT<CR>
-"map <D-1> :ConqueTermTab zsh<CR>
 set backspace=indent,eol,start
 set mouse=a
 
@@ -111,7 +109,6 @@ endfor
 " set file path
 set viminfo+=n$HOME/.vimfiles/viminfo
 let g:MRU_File=$HOME . "/.vimfiles/mru_files"
-"let $FAVOURITES=$HOME . "/.vimfiles/vimfavourites"
 
 " interface
 set ruler
@@ -129,6 +126,7 @@ endif
 " autocmd
 autocmd! bufwritepost ~/workspace/git/set/vimrc source ~/.vimrc
 autocmd BufNewFile,BufRead *.vm set filetype=html syntax=velocity fileencoding=cp936
+autocmd FileType html,htm set syntax=html
 
 " Uisvr.vim
 let g:uisvr_opening_window = 'tabnew'
