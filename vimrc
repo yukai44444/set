@@ -25,12 +25,12 @@ Bundle "msanders/snipmate.vim"
 Bundle "vim-scripts/AutoClose"
 "用,m来高亮任何字符
 Bundle "mbriggs/mark.vim"
-Bundle "tomtom/checksyntax_vim"
+Bundle "scrooloose/syntastic"
 
 filetype plugin indent on
 
 " globle
-set fileencodings=ucs-bom,utf-8,cp936,gb18030,gbk
+set fileencodings=ucs-bom,utf-8,cp936,gb18030
 set history=128
 set background=dark
 colorscheme solarized
@@ -125,8 +125,8 @@ endif
 
 " autocmd
 autocmd! bufwritepost ~/workspace/git/set/vimrc source ~/.vimrc
-autocmd BufNewFile,BufRead *.vm set filetype=html syntax=velocity fileencoding=cp936
-autocmd FileType html,htm set syntax=html
+autocmd BufNewFile,BufRead *.vm set filetype=velocity fileencoding=cp936
+autocmd BufNewFile,BufRead */*htdocs/uisvr/* set fileencoding=cp936
 
 " Uisvr.vim
 let g:uisvr_opening_window = 'tabnew'
@@ -144,3 +144,7 @@ let g:use_zen_complete_tag = 1
 " 2 - 记住上次的补全方式,直到按ESC退出插入模式为止
 let g:SuperTabRetainCompletionType=2
 let g:SuperTabDefaultCompletionType="<C-X><C-O>"
+
+" 代码检查配置
+let g:syntastic_loc_list_height=0
+let g:syntastic_html_checker = "none"
