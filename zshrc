@@ -35,6 +35,7 @@ source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
 export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin
+export NODE_PATH=/usr/local/lib/node_modules
 
 alias mcd='mvn clean deploy'
 alias flushdns='sudo dscacheutil -flushcache'

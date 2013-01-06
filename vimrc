@@ -61,6 +61,7 @@ set autoindent
 set smartindent
 set shiftwidth=4
 set tabstop=4
+set expandtab
 set softtabstop=4
 set switchbuf=useopen
 
@@ -73,6 +74,8 @@ set foldcolumn=1
 set foldminlines=5
 set foldlevel=2
 set foldnestmax=3
+set list
+set listchars=tab:▸\ ,eol:¬,extends:❯,precedes:❮
 
 " 不要swp文件
 set noswapfile
