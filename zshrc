@@ -39,7 +39,7 @@ export NODE_PATH=/usr/local/lib/node_modules
 
 alias mcd='mvn clean deploy'
 alias flushdns='sudo dscacheutil -flushcache'
-alias breakwall='ssh -D 7070 kaizi@ssh.kaizi.me'
+alias breakwall='ssh -D 7070 kaizi@kaizi.me'
 alias v='mvim'
 alias vi='mvim'
 alias vim='mvim'
