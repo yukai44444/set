@@ -10,22 +10,22 @@ call vundle#rc()
 " required!
 Bundle 'gmarik/vundle'
 " My Bundles here:
-Bundle "tpope/vim-markdown"
-Bundle "lepture/vim-javascript"
-Bundle "lepture/vim-velocity"
-Bundle "lepture/vim-css"
-Bundle "altercation/vim-colors-solarized"
-"快速删除修改添加surround
-Bundle "tpope/vim-surround"
-Bundle "vim-scripts/mru.vim"
-Bundle "hotoo/uisvr.vim"
-Bundle "mattn/zencoding-vim"
-Bundle "ervandew/supertab"
-Bundle "msanders/snipmate.vim"
-Bundle "vim-scripts/AutoClose"
-"用,m来高亮任何字符
-Bundle "mbriggs/mark.vim"
-Bundle "scrooloose/syntastic"
+Bundle 'tpope/vim-markdown'
+Bundle 'lepture/vim-javascript'
+Bundle 'lepture/vim-velocity'
+Bundle 'lepture/vim-css'
+Bundle 'altercation/vim-colors-solarized'
+" 快速删除修改添加surround
+Bundle 'tpope/vim-surround'
+Bundle 'mru.vim'
+Bundle 'hotoo/uisvr.vim'
+Bundle 'mattn/zencoding-vim'
+Bundle 'ervandew/supertab'
+Bundle 'msanders/snipmate.vim'
+" Bundle 'vim-scripts/AutoClose'
+" 用,m来高亮任何字符
+Bundle 'mbriggs/mark.vim'
+Bundle 'scrooloose/syntastic'
 
 filetype plugin indent on
 
