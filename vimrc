@@ -11,8 +11,9 @@ call vundle#rc()
 Bundle 'gmarik/vundle'
 " My Bundles here:
 Bundle 'tpope/vim-markdown'
-Bundle 'lepture/vim-javascript'
+Bundle 'pangloss/vim-javascript'
 Bundle 'lepture/vim-velocity'
+Bundle 'lepture/vim-jinja'
 Bundle 'lepture/vim-css'
 Bundle 'altercation/vim-colors-solarized'
 " 快速删除修改添加surround
