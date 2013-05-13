@@ -27,6 +27,7 @@ Bundle 'msanders/snipmate.vim'
 " 用,m来高亮任何字符
 Bundle 'mbriggs/mark.vim'
 Bundle 'scrooloose/syntastic'
+Bundle 'wincent/Command-T'
 
 filetype plugin indent on
 
@@ -102,6 +103,7 @@ map <C-Tab> :tabnext<CR>
 map <F6> :call ToggleMRU()<CR>
 map <F9> :!svn update<CR>
 map <F10> :!svn commit --message=''<LEFT>
+map <C-t> :CommandT ..%F%m%r%h<CR>
 set backspace=indent,eol,start
 set mouse=a
 
