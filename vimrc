@@ -153,3 +153,6 @@ let g:SuperTabDefaultCompletionType="<C-X><C-O>"
 " 代码检查配置
 let g:syntastic_loc_list_height=0
 let g:syntastic_html_checker = "none"
+
+" ctrlp插件根目录配置
+let g:ctrlp_root_markers = ['htdocs']
