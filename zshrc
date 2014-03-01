@@ -34,8 +34,8 @@ plugins=(git node brew github osx svn)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin
-export NODE_PATH=/usr/local/lib/node_modules
+export PATH="$PATH:/usr/local/share/npm/bin:/usr/local/mysql/bin"
+export NODE_PATH=/usr/local/share/npm/lib/node_modules
 
 alias mcd='mvn clean deploy'
 alias flushdns='sudo dscacheutil -flushcache'
@@ -43,6 +43,7 @@ alias breakwall='ssh -D 7070 kaizi@kaizi.me'
 alias v='mvim'
 alias vi='mvim'
 alias vim='mvim'
+alias spm1="$HOME/node_modules/.bin/spm"
 
 hash -d tk="$HOME/workspace/trunk"
 hash -d rei="$HOME/workspace/git/site_rei"

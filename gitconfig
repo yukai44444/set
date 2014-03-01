@@ -1,6 +1,6 @@
 [user]
-	name = kaizi
-	email = yukai44444@163.com
+	name = 定风波
+	email = bingye.yu@alipay.com
 
 [core]
     editor = vim
@@ -11,10 +11,11 @@
     tool = vimdiff
 
 [diff]
-    tool = vimdiff
-
+    tool = ksdiff
+[difftool "ksdiff"]
+    cmd = "ksdiff \"$LOCAL\" \"$REMOTE\";sleep 2"
 [difftool]
-    prompt = false
+    prompt = ture
 
 [alias]
     st = status
@@ -32,3 +33,5 @@
 
 [color]
     ui = true
+[push]
+	default = simple
