@@ -34,7 +34,7 @@ plugins=(git node brew github osx svn)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH="$PATH:/usr/local/share/npm/bin:/usr/local/mysql/bin"
+export PATH="$PATH:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/share/npm/bin:/usr/local/mysql/bin"
 export NODE_PATH=/usr/local/share/npm/lib/node_modules
 
 alias mcd='mvn clean deploy'
