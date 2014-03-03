@@ -34,7 +34,7 @@ plugins=(git node brew github osx svn)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH="$PATH:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/sbin:/usr/local/share/npm/bin:/usr/local/mysql/bin"
+export PATH="$PATH:/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/npm/bin:/usr/local/mysql/bin"
 export NODE_PATH=/usr/local/share/npm/lib/node_modules
 
 alias mcd='mvn clean deploy'
@@ -46,6 +46,6 @@ alias vim='mvim'
 
 hash -d tk="$HOME/workspace/trunk"
 hash -d rei="$HOME/workspace/git/site_rei"
-
+hash -d set="$HOME/workspace/git/set"
 
 . ~/.spm_completion
