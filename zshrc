@@ -43,7 +43,6 @@ alias breakwall='ssh -D 7070 kaizi@96.126.122.58'
 alias v='mvim'
 alias vi='mvim'
 alias vim='mvim'
-alias spm1="$HOME/node_modules/.bin/spm"
 
 hash -d tk="$HOME/workspace/trunk"
 hash -d rei="$HOME/workspace/git/site_rei"
