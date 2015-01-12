@@ -47,5 +47,3 @@ alias vim='mvim'
 hash -d tk="$HOME/workspace/trunk"
 hash -d rei="$HOME/workspace/git/site_rei"
 hash -d set="$HOME/workspace/git/set"
-
-. ~/.spm_completion
