@@ -1,10 +1,10 @@
 [user]
-	name = 定风波
-	email = bingye.yu@alipay.com
+	name = yukai44444
+	email = yukai44444@163.com
 
 [core]
     editor = vim
-	excludesfile = /Users/kaizi/.gitignore
+	excludesfile = ~/.gitignore
     quotepath = false
 
 [merge]
