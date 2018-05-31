@@ -1,21 +1,10 @@
 [user]
-	name = yukai44444
-	email = yukai44444@163.com
+	name = 余秉烨
+	email = yukai44444@gmail.com
 
 [core]
-    editor = vim
-	excludesfile = ~/.gitignore
+	excludesfile = /Users/yukai/.gitignore
     quotepath = false
-
-[merge]
-    tool = vimdiff
-
-[diff]
-    tool = ksdiff
-[difftool "ksdiff"]
-    cmd = "ksdiff \"$LOCAL\" \"$REMOTE\";sleep 2"
-[difftool]
-    prompt = ture
 
 [alias]
     st = status
@@ -30,6 +19,7 @@
     graphviz = "!f() { echo 'digraph git {' ; git log --pretty='format:  %h -> { %p }' \"$@\" | sed 's/[0-9a-f][0-9a-f]*/\"&\"/g' ; echo '}'; }; f"
     lc = "! git log --pretty=oneline|wc -l"
 	pom = push origin master
+    pod = push origin dev
 
 [color]
     ui = true
